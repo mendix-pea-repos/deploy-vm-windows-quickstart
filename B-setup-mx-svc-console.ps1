@@ -15,8 +15,8 @@
 #       Service Configuration
 #               service name = MendixDemo
 #               description = MendixDemo (make sure the name of the app in the service console is showing as MendixDemo)  
-#               user = see above
-#               pwd = see above  
+#               user = see A-setup-prereqs script. We defined the username there.
+#               pwd =  see A-setup-prereqs script. We defined the username there.
 #
 #       Project Files
 #               locate .mda file from desktop
