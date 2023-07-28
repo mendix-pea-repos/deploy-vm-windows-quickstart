@@ -36,3 +36,23 @@ https://docs.mendix.com/developerportal/deploy/deploy-mendix-on-microsoft-window
 
 - You should be able to login to your app using the MxAdmin user. Its password can be set in the Mendix Service Console > Advanced Options. You will need to restart the service for the password change to become effective.<br><br>
 
+<br>
+<br>
+<br>
+<br>
+
+
+# Notes
+
+> SHARED BY [@jeffdice-mendix](https://github.com/jeffdice-mendix) in the original repo. Copied here for continuity:
+
+* Note that this can be run on the Windows Server 2019+ trial versions downloadable from MSFT, and if using as a VM, a .vhd is provided in addition to .ISO. Link for 2019 is https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019
+
+- If using the above environment, you'll need to:
+
+    - Turn off IE Enhanced Security Configuration - https://learn.microsoft.com/en-us/troubleshoot/developer/browsers/security-privacy/enhanced-security-configuration-faq
+
+    - Allow Powershell to run 'unsigned' scripts - Link for full explanation follows, but short version is open Powershell CLI as an Administrator and run command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass" - https://woshub.com/configure-powershell-script-execution-policy/
+
+
+- Chrome should be used to check results of Mendix app being spun up and not the Windows Server default browser if it's IE 11

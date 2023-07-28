@@ -31,6 +31,7 @@
 #               psql "host=localhost port=5432 dbname=postgres user=postgres password=test"
 #
 #       set java path on C:\ProgramFiles\eclipse\...\hotspot
+#       (it should be something like: C:\Program Files\Eclipse Adoptium\jdk-11.0.19.7-hotspot)
 #
 #       start service
 #       when prompted, agree to creating the new 'MendixDemo' db.
